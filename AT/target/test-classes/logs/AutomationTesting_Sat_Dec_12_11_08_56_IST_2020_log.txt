@@ -1,0 +1,1 @@
+INFO    2020-12-12 11:08:56,282 [main] stepDefinitions.NDTVweatherUI  - edge Browser is opened successfully

@@ -1,0 +1,2 @@
+INFO    2020-12-30 09:53:33,131 [main] stepDefinitions.NDTVweatherUI  - chrome Browser is opened successfully
+INFO    2020-12-30 09:54:19,915 [main] stepDefinitions.NDTVweatherUI  - Application is opened successfully
