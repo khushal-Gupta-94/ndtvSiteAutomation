@@ -1,0 +1,161 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-30T09:09:35.102Z",
+        "line": 3,
+        "name": "Verify that Automation Testing web application menu item is working fine.",
+        "description": "",
+        "id": "automation-testing-webpage-validations;verify-that-automation-testing-web-application-menu-item-is-working-fine.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6283687600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open \"chrome\" Browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinitions.NDTVweatherUI.open_Browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57501266700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch \"https://www.ndtv.com/\" with expected page title \"Get Latest News, India News, Breaking News, Today\u0027s News - NDTV.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.ndtv.com/",
+                  "offset": 8
+                },
+                {
+                  "val": "Get Latest News, India News, Breaking News, Today\u0027s News - NDTV.com",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefinitions.NDTVweatherUI.enter_URL(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2205582800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on \"WEATHER\" tab with expected page title \"NDTV Weather - Weather in your Indian City\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WEATHER",
+                  "offset": 10
+                },
+                {
+                  "val": "NDTV Weather - Weather in your Indian City",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinitions.NDTVweatherUI.clickTab(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 364415200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Search \"Ajmer\" city and check the checkbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ajmer",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.NDTVweatherUI.searchAndCheckCity(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 271939900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Fetch all data shown for \"Ajmer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ajmer",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.NDTVweatherUI.fetchDataForCity(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 981766000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "stepDefinitions.NDTVweatherUI.closeBrowsr()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1098452100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Fetch data for \"Ajmer\" from API using \"64d62235e7b5b4d48030c8cdd4d62981\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ajmer",
+                  "offset": 16
+                },
+                {
+                  "val": "64d62235e7b5b4d48030c8cdd4d62981",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.APIDataFetch.fetchAPIData(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Automation testing webpage validations",
+    "description": "",
+    "id": "automation-testing-webpage-validations",
+    "keyword": "Feature",
+    "uri": "file:src/Features/NDTV.feature",
+    "tags": []
+  }
+]
