@@ -7,4 +7,4 @@ Feature: Automation testing webpage validations
     Then Search "Ajmer" city and check the checkbox
     Then Fetch all data shown for "Ajmer"
     Then close the browser
-    Then Fetch data for "Ajmer" from API using "64d62235e7b5b4d48030c8cdd4d62981"
+    Then Fetch data for "Ajmer" from API using {APIKEY}
